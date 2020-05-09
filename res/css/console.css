@@ -1,0 +1,20 @@
+.hidden {
+    opacity: 0;
+}
+
+.console-container {
+    font-size: 1.5em;
+    display: block;
+    color: white;
+    margin-left: 1em;
+}
+
+.console-underscore {
+    display: inline-block;
+    position: relative;
+    left: -0.5em;
+}
+
+span#prompt:before {
+    content: "$ ";
+}

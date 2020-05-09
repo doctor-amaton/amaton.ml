@@ -1,0 +1,38 @@
+body, pre.ascii {
+    color: #0C0C0E;
+    letter-spacing: 0px;
+    font-weight: normal;
+    font-family: courier new;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+a {
+    color: white;
+    font-weight: 600;
+}
+
+pre.ascii {
+    font-size: 1em;
+    line-height: 0.7em;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    user-select: none;
+}
+
+pre.man {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1em;
+    font-size: 1.5em;
+
+    position: fixed;
+}
+
+h1:before {
+    content: "$ ";
+}
